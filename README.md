@@ -14,19 +14,19 @@ The cloud is perfect for hosting static websites that only include HTML, CSS, an
 ## Steps of the project
 
 1. Create a S3 bucket where need to uncheck “Block all public access”.
-![Create S3 bucket](./demo_pic_of_the_site/S3_Bucket_Create.jpg)
+![Create S3 bucket]
 
 2. Upload the files and folders from your local computer to the S3 bucket.
-![Upload to S3 bucket](./demo_pic_of_the_site/Website_content_in_S3_bucket.jpg)
+![Upload to S3 bucket]
 
 3. Change the Bucket Policy according to your Bucket Policy file.
-![Bucket policy](./demo_pic_of_the_site/Bucket_policy.jpg)
+![Bucket policy]
 
 4. Make the bucket to host a website using bucket properties tab.
-![Bucket properties](./demo_pic_of_the_site/Static_website.jpg)
+![Bucket properties]
 
 5. Use CloudFront dashboard create distribution and S3 bucket name use under “Origin Domain Name”.
-![CloudFront](./demo_pic_of_the_site/Cloudfront_site.jpg)
+![CloudFront]
 
 6. Open a web browser like Google Chrome and paste the copied endpoint URL and append “/index.html” on the end.
-![Website Demo](./demo_pic_of_the_site/Website_using_cloudfront.jpg)
+![Website Demo]
